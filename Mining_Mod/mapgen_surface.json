@@ -1,0 +1,393 @@
+[
+{
+  "type" : "mapgen",
+  "om_terrain" : ["field_shallow"],
+  "method": "json",
+  "weight": 1000, "comment": "Rocky outcropping, indicative of surface erosion exposing bedrock.",
+  "object": {
+   "rows": [
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "         ....           ",
+    "        ..?...          ",
+    "       ..????...        ",
+    "      ..???#???...      ",
+    "      .??#####???.      ",
+    "      .???####??..      ",
+    "      ..???##??..       ",
+    "       ...????..        ",
+    "         ..??..         ",
+    "          ....          ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        "
+            ],
+   "terrain": {
+    " ": [ "t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_dirt","t_dirt","t_underbrush"],
+    "#": "t_rock_floor",
+    ".": "t_dirt",
+    "?": "t_dirt"
+   },
+      "furniture": {
+        "#": [ "f_boulder_small", "f_boulder_medium", "f_boulder_large" ],
+        "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
+      }
+  }
+},
+{
+  "type" : "mapgen",
+  "om_terrain" : ["field_shallow"],
+  "method": "json",
+  "weight": 1000, "comment": "Suspisciously dead patch of ground, with small hints of fragmenta.",
+  "object": {
+   "rows": [
+    "                        ",
+    "           ..           ",
+    "         ......         ",
+    "       ..........       ",
+    "       ..........       ",
+    "      ............      ",
+    "     ..............     ",
+    "   ..........%.......   ",
+    "   ......%...........   ",
+    "  ...........%........  ",
+    "  ........%...%.......  ",
+    " .......%...%...%...... ",
+    " ..........%%%......... ",
+    "  ..........%....%....  ",
+    "  ...%....%....%......  ",
+    "   ......%....%......   ",
+    "   ....%.....%.%.....   ",
+    "     ..............     ",
+    "      ............      ",
+    "       ..........       ",
+    "       ..........       ",
+    "         ......         ",
+    "           ..           ",
+    "                        "
+            ],
+   "terrain": {
+    " ": [ "t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_dirt","t_dirt","t_underbrush"],
+        ".": "t_dirt",
+        "%": "t_dirt"
+   },
+      "furniture": {
+        "%": [ "f_null", "f_rubble_rock" ]
+      }
+	}
+},
+{
+  "type" : "mapgen",
+  "om_terrain" : ["field_shallow"],
+  "method": "json",
+  "weight": 500, "comment": "Rocky hill, with some degree of rocky outcropping and fragmenta around it.",
+  "object": {
+   "rows": [
+    "                        ",
+    "           ..           ",
+    "         ......         ",
+    "       ..........       ",
+    "       ..........       ",
+    "      ............      ",
+    "     ..............     ",
+    "   ........??........   ",
+    "   .......????.......   ",
+    "  .......??##??.......  ",
+    "  ......??####??......  ",
+    " ......??######??...... ",
+    " ......??######??...... ",
+    "  ......??####??......  ",
+    "  .......??##??.......  ",
+    "   .......????.......   ",
+    "   ........??........   ",
+    "     ..............     ",
+    "      ............      ",
+    "       ..........       ",
+    "       ..........       ",
+    "         ......         ",
+    "           ..           ",
+    "                        "
+            ],
+   "terrain": {
+    " ": [ "t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_dirt","t_dirt","t_underbrush"],
+        ".": "t_dirt",
+        "#": "t_rock",
+        "?": "t_dirt"
+   },
+      "furniture": {
+        "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
+      }
+	}
+},
+{
+  "type" : "mapgen",
+  "om_terrain" : ["field_deep"],
+  "method": "json",
+  "weight": 500, "comment": "Rocky outcropping, indicative of surface erosion exposing bedrock.",
+  "object": {
+   "rows": [
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "         ....           ",
+    "        ..?...          ",
+    "       ..????...        ",
+    "      ..???#???...      ",
+    "      .??#####???.      ",
+    "      .???####??..      ",
+    "      ..???##??..       ",
+    "       ...????..        ",
+    "         ..??..         ",
+    "          ....          ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        "
+            ],
+   "terrain": {
+    " ": [ "t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_dirt","t_dirt","t_underbrush"],
+    "#": "t_rock_floor",
+    ".": "t_dirt",
+    "?": "t_dirt"
+   },
+      "furniture": {
+        "#": [ "f_boulder_small", "f_boulder_medium", "f_boulder_large" ],
+        "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
+      }
+  }
+},
+{
+  "type" : "mapgen",
+  "om_terrain" : ["field_deep"],
+  "method": "json",
+  "weight": 1000, "comment": "Suspisciously dead patch of ground, with small hints of fragmenta.",
+  "object": {
+   "rows": [
+    "                        ",
+    "           ..           ",
+    "         ......         ",
+    "       ..........       ",
+    "       ..........       ",
+    "      ............      ",
+    "     ..............     ",
+    "   ..........%.......   ",
+    "   ......%...........   ",
+    "  ...........%........  ",
+    "  ........%...%.......  ",
+    " .......%...%...%...... ",
+    " ..........%%%......... ",
+    "  ..........%....%....  ",
+    "  ...%....%....%......  ",
+    "   ......%....%......   ",
+    "   ....%.....%.%.....   ",
+    "     ..............     ",
+    "      ............      ",
+    "       ..........       ",
+    "       ..........       ",
+    "         ......         ",
+    "           ..           ",
+    "                        "
+            ],
+   "terrain": {
+    " ": [ "t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_dirt","t_dirt","t_underbrush"],
+        ".": "t_dirt",
+        "%": "t_dirt"
+   },
+      "furniture": {
+        "%": [ "f_null", "f_rubble_rock" ]
+      }
+	}
+},
+{
+  "type" : "mapgen",
+  "om_terrain" : ["field_deep"],
+  "method": "json",
+  "weight": 750, "comment": "Rocky hill, with some degree of rocky outcropping and fragmenta around it.",
+  "object": {
+   "rows": [
+    "                        ",
+    "           ..           ",
+    "         ......         ",
+    "       ..........       ",
+    "       ..........       ",
+    "      ............      ",
+    "     ..............     ",
+    "   ........??........   ",
+    "   .......????.......   ",
+    "  .......??##??.......  ",
+    "  ......??####??......  ",
+    " ......??######??...... ",
+    " ......??######??...... ",
+    "  ......??####??......  ",
+    "  .......??##??.......  ",
+    "   .......????.......   ",
+    "   ........??........   ",
+    "     ..............     ",
+    "      ............      ",
+    "       ..........       ",
+    "       ..........       ",
+    "         ......         ",
+    "           ..           ",
+    "                        "
+            ],
+   "terrain": {
+    " ": [ "t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass","t_grass",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_grass","t_grass","t_grass","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_dirt","t_dirt","t_underbrush"],
+        ".": "t_dirt",
+        "#": "t_rock",
+        "?": "t_dirt"
+   },
+      "furniture": {
+        "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
+      }
+	}
+},
+{
+  "type" : "mapgen",
+  "om_terrain" : ["forest_vein"],
+  "method": "json",
+  "weight": 1000, "comment": "Rocky outcropping, indicative of surface erosion exposing bedrock.  Treeline is severely thinned and growing poorly.",
+  "object": {
+   "rows": [
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "         ....           ",
+    "        ..?...          ",
+    "       ..????...        ",
+    "      ..???#???...      ",
+    "      .??#####???.      ",
+    "      .???####??..      ",
+    "      ..???##??..       ",
+    "       ...????..        ",
+    "         ..??..         ",
+    "          ....          ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        "
+            ],
+   "terrain": {
+    " ": [ "t_tree_dead","t_tree_dead","t_tree_dead","t_grass","t_grass","t_grass","t_grass","t_grass",
+          "t_tree_young","t_tree_young","t_grass","t_grass","t_tree_dead","t_tree_dead","t_dirt","t_dirt","t_dirt",
+          "t_tree_deadpine","t_tree_deadpine","t_tree_deadpine","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_tree_young","t_tree_young","t_grass","t_grass","t_tree_deadpine","t_tree_deadpine","t_dirt","t_dirt","t_dirt",
+          "t_tree","t_tree","t_grass","t_grass","t_tree","t_dirt","t_dirt","t_dirt","t_underbrush",
+          "t_tree_pine","t_tree_pine","t_grass","t_grass","t_tree_pine","t_tree_pine","t_dirt","t_dirt","t_dirt",
+          "t_dirt","t_underbrush","t_underbrush"],
+    "#": "t_rock_floor",
+    ".": "t_dirt",
+    "?": "t_dirt"
+   },
+      "furniture": {
+        "#": [ "f_boulder_small", "f_boulder_medium", "f_boulder_large" ],
+        "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
+      }
+  }
+},
+{
+  "type" : "mapgen",
+  "om_terrain" : ["forest_vein"],
+  "method": "json",
+  "weight": 1000, "comment": "Suspisciously dead patch of forest, with small hints of fragmenta.",
+  "object": {
+   "rows": [
+    "                        ",
+    "                        ",
+    "                        ",
+    "      %                 ",
+    "                %       ",
+    "                        ",
+    "     %               %  ",
+    "             %          ",
+    "         %              ",
+    "  %          %          ",
+    "          %   %         ",
+    "        %   %   %       ",
+    "   %          %         ",
+    "            %    %      ",
+    "     %    %    %        ",
+    "              %         ",
+    "   %   %     % %        ",
+    "                 %      ",
+    "          %        %    ",
+    "        %               ",
+    "                        ",
+    "  %           %         ",
+    "                        ",
+    "                        "
+            ],
+   "terrain": {
+    " ": [ "t_tree_dead","t_tree_dead","t_tree_dead","t_grass","t_grass","t_grass","t_grass","t_grass",
+          "t_tree_young","t_tree_young","t_grass","t_grass","t_tree_dead","t_tree_dead","t_dirt","t_dirt","t_dirt",
+          "t_tree_deadpine","t_tree_deadpine","t_tree_deadpine","t_grass","t_dirt","t_dirt","t_dirt","t_dirt","t_dirt",
+          "t_tree_young","t_tree_young","t_grass","t_grass","t_tree_deadpine","t_tree_deadpine","t_dirt","t_dirt","t_dirt",
+          "t_tree","t_tree","t_grass","t_grass","t_tree","t_dirt","t_dirt","t_dirt","t_underbrush",
+          "t_tree_pine","t_tree_pine","t_grass","t_grass","t_tree_pine","t_tree_pine","t_dirt","t_dirt","t_dirt",
+          "t_dirt","t_underbrush","t_underbrush"],
+        "%": "t_dirt"
+   },
+      "furniture": {
+        "%": [ "f_null", "f_rubble_rock" ]
+      }
+}
+}
+]
