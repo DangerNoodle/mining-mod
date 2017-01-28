@@ -1,10 +1,11 @@
-{
+[
+  {
     "type": "MOD_INFO",
-    "mod-type": "SUPPLEMENTAL",
     "ident": "Mining_Mod",
     "name": "Mining Mod",
-    "author": "DangerNoodle",
+    "authors": [ "DangerNoodle" ],
     "description": "Adds mineral veins randomly found underground, to obtain various natural resources.",
     "category": "misc_additions",
-    "path": ""
-}
+    "dependencies": [ "dda" ]
+  }
+]
