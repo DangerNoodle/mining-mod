@@ -1,0 +1,101 @@
+[
+    {
+        "type" : "overmap_special",
+        "id" : "Crater",
+        "copy-from" : "Crater",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "crater"},
+            { "point":[0,0,-1], "overmap": "vein_maybe"}
+        ]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Toxic Waste Dump",
+        "copy-from" : "Toxic Waste Dump",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "toxic_dump"},
+            { "point":[0,0,-1], "overmap": "vein_maybe"}
+        ]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Motel",
+        "copy-from" : "Motel",
+        "occurrences" : [0, 5]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Home Improvement Superstore",
+        "copy-from" : "Home Improvement Superstore",
+        "occurrences" : [0, 2]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "FEMA Camp",
+        "copy-from" : "FEMA Camp",
+        "occurrences" : [1, 5]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "cemetery_religious",
+        "copy-from" : "cemetery_religious",
+        "occurrences" : [1, 5]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Gas Station",
+        "copy-from" : "Gas Station",
+        "occurrences" : [1, 4]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "campsite_a",
+        "copy-from" : "campsite_a",
+        "occurrences" : [1, 5]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "bog",
+        "copy-from" : "bog",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "pond_swamp"},
+            { "point":[0,0,-1], "overmap": "vein_hematite"}
+        ]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Cabin",
+        "copy-from" : "Cabin",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "cabin"},
+            { "point":[0,0,-1], "overmap": "vein_maybe"}
+        ]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Strange Cabin",
+        "copy-from" : "Strange Cabin",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "cabin_strange"},
+            { "point":[0,0,-1], "overmap": "cabin_strange_b"},
+            { "point":[0,0,-2], "overmap": "vein_maybe"},
+            { "point":[0,0,-3], "overmap": "vein_maybe"},
+            { "point":[0,0,-4], "overmap": "vein_maybe"},
+            { "point":[0,0,-5], "overmap": "vein_maybe"}
+        ]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Standing stones",
+        "copy-from" : "Standing stones",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "standing_stones"},
+            { "point":[0,0,-1], "overmap": "empty_rock"},
+            { "point":[0,0,-2], "overmap": "vein_maybe"},
+            { "point":[0,0,-3], "overmap": "vein_maybe"},
+            { "point":[0,0,-4], "overmap": "vein_maybe"},
+            { "point":[0,0,-5], "overmap": "vein_maybe"}
+
+        ]
+    }
+]

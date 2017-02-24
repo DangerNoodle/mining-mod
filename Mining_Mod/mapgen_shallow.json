@@ -388,5 +388,44 @@
     "?": [ "t_rock", "t_rock_hematite" ]
    }
   }
+},
+{
+  "type" : "mapgen",
+  "om_terrain" : ["vein_hematite"],
+  "method": "json",
+  "weight": 400, "comment": "Hematite vein, set aside for bog iron.  Realistically should be limonite.",
+  "object": {
+   "rows": [
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "       ??               ",
+    "        ???             ",
+    "        ?##?            ",
+    "         ?##?           ",
+    "          ?##?          ",
+    "           ?##?         ",
+    "            ???         ",
+    "               ?        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        "
+            ],
+   "terrain": {
+    " ": "t_rock",
+    "#": "t_rock_hematite",
+    "?": [ "t_rock", "t_rock_hematite" ]
+   }
+  }
 }
 ]
