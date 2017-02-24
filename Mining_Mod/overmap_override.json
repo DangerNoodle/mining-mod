@@ -19,15 +19,21 @@
     },
     {
         "type" : "overmap_special",
+        "id" : "Hotel",
+        "copy-from" : "Hotel",
+        "occurrences" : [0, 2]
+    },
+    {
+        "type" : "overmap_special",
         "id" : "Motel",
         "copy-from" : "Motel",
         "occurrences" : [0, 5]
     },
     {
         "type" : "overmap_special",
-        "id" : "Home Improvement Superstore",
-        "copy-from" : "Home Improvement Superstore",
-        "occurrences" : [0, 2]
+        "id" : "Gas Station",
+        "copy-from" : "Gas Station",
+        "occurrences" : [0, 4]
     },
     {
         "type" : "overmap_special",
@@ -37,15 +43,69 @@
     },
     {
         "type" : "overmap_special",
-        "id" : "cemetery_religious",
-        "copy-from" : "cemetery_religious",
-        "occurrences" : [1, 5]
+        "id" : "Radio Tower",
+        "copy-from" : "Radio Tower",
+        "occurrences" : [0, 5]
     },
     {
         "type" : "overmap_special",
-        "id" : "Gas Station",
-        "copy-from" : "Gas Station",
-        "occurrences" : [1, 4]
+        "id" : "Apartments_Con",
+        "copy-from" : "Radio Tower",
+        "occurrences" : [0, 5]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Apartments_Mod",
+        "copy-from" : "Apartments_Mod",
+        "occurrences" : [0, 4]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Office Tower",
+        "copy-from" : "Office Tower",
+        "occurrences" : [0, 5]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Evac Shelter",
+        "copy-from" : "Evac Shelter",
+        "occurrences" : [1, 10]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "power_station_large",
+        "copy-from" : "power_station_large",
+        "occurrences" : [0, 3]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "Home Improvement Superstore",
+        "copy-from" : "Home Improvement Superstore",
+        "occurrences" : [0, 3]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "rest_stop",
+        "copy-from" : "rest_stop",
+        "occurrences" : [0, 2]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "roadstop_a",
+        "copy-from" : "roadstop_a",
+        "occurrences" : [0, 2]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "roadstop_b",
+        "copy-from" : "roadstop_b",
+        "occurrences" : [0, 2]
+    },
+    {
+        "type" : "overmap_special",
+        "id" : "cemetery_religious",
+        "copy-from" : "cemetery_religious",
+        "occurrences" : [0, 5]
     },
     {
         "type" : "overmap_special",
