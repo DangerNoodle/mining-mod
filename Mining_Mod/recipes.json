@@ -125,9 +125,9 @@
     "time": 420000,
     "autolearn": true,
     "book_learn": [ [ "textbook_carpentry", 4 ], [ "textbook_fabrication", 5 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 } ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "tools": [
-      [ [ "tongs", -1 ] ],
+      [ [ "anvil", -1 ] ],
       [ [ "crucible", -1 ] ],
       [ [ "forge", 200 ], [ "char_forge", 40 ], [ "oxy_torch", 40 ] ]
     ],

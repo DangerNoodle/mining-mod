@@ -7,6 +7,14 @@
       [ "chunk_hematite", 10 ]
     ]
   },
+  {
+    "id": "rubble_fake",
+    "type": "item_group",
+    "comment": "Unable to both randomly placed rubbble and ensure rocks spawn underneath.",
+    "items": [
+      { "item": "rock", "prob": 100, "count-min": 1, "count-max": 3 }
+    ]
+  },
 {
   "type" : "mapgen",
   "om_terrain" : ["field_shallow"],
@@ -54,6 +62,14 @@
       "furniture": {
         "#": [ "f_boulder_small", "f_boulder_medium", "f_boulder_large" ],
         "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
+      },
+      "mapping": {
+        "?": {
+          "items": {
+            "item": "rubble_fake",
+            "chance": 33
+          }
+        }
       }
   }
 },
@@ -102,6 +118,14 @@
    },
       "furniture": {
         "%": [ "f_null", "f_rubble_rock" ]
+      },
+      "mapping": {
+        "%": {
+          "items": {
+            "item": "rubble_fake",
+            "chance": 50
+          }
+        }
       }
 	}
 },
@@ -151,6 +175,14 @@
    },
       "furniture": {
         "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
+      },
+      "mapping": {
+        "?": {
+          "items": {
+            "item": "rubble_fake",
+            "chance": 33
+          }
+        }
       }
 	}
 },
@@ -201,6 +233,14 @@
       "furniture": {
         "#": [ "f_boulder_small", "f_boulder_medium", "f_boulder_large" ],
         "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
+      },
+      "mapping": {
+        "?": {
+          "items": {
+            "item": "rubble_fake",
+            "chance": 33
+          }
+        }
       }
   }
 },
@@ -249,6 +289,14 @@
    },
       "furniture": {
         "%": [ "f_null", "f_rubble_rock" ]
+      },
+      "mapping": {
+        "%": {
+          "items": {
+            "item": "rubble_fake",
+            "chance": 50
+          }
+        }
       }
 	}
 },
@@ -298,6 +346,14 @@
    },
       "furniture": {
         "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
+      },
+      "mapping": {
+        "?": {
+          "items": {
+            "item": "rubble_fake",
+            "chance": 33
+          }
+        }
       }
 	}
 },
@@ -348,6 +404,14 @@
       "furniture": {
         "#": [ "f_boulder_small", "f_boulder_medium", "f_boulder_large" ],
         "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
+      },
+      "mapping": {
+        "?": {
+          "items": {
+            "item": "rubble_fake",
+            "chance": 33
+          }
+        }
       }
   }
 },
@@ -395,6 +459,14 @@
    },
       "furniture": {
         "%": [ "f_null", "f_rubble_rock" ]
+      },
+      "mapping": {
+        "%": {
+          "items": {
+            "item": "rubble_fake",
+            "chance": 50
+          }
+        }
       }
 }
 },
@@ -442,8 +514,23 @@
         "%": "t_dirt"
    },
       "furniture": {
-        " ": [ "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_rubble_rock", "f_cattails" ],
+        " ": [ "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_cattails" ],
+        ".": [ "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_rubble_rock" ],
         "%": [ "f_null", "f_rubble_rock" ]
+      },
+      "mapping": {
+        ".": {
+          "items": {
+            "item": "rubble_fake",
+            "chance": 3
+          }
+        },
+        "%": {
+          "items": {
+            "item": "rubble_fake",
+            "chance": 50
+          }
+        }
       }
 	}
 },
@@ -491,12 +578,23 @@
         "%": "t_dirt"
    },
       "furniture": {
-        " ": [ "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_rubble_rock", "f_cattails" ],
+        " ": [ "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_cattails" ],
+        ".": [ "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_rubble_rock" ],
         "%": [ "f_null", "f_rubble_rock" ]
       },
-      "items": {
-        ".": { "item": "minerals_swamp", "chance": 2 },
-        "%": { "item": "minerals_swamp", "chance": 30 }
+      "mapping": {
+        ".": {
+          "items": [
+            { "item": "rubble_fake", "chance": 3 },
+            { "item": "minerals_swamp", "chance": 1 }
+          ]
+        },
+        "%": {
+          "items": [
+            { "item": "rubble_fake", "chance": 50 },
+            { "item": "minerals_swamp", "chance": 20 }
+          ]
+        }
       }
 	}
 }
