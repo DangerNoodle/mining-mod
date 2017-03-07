@@ -9,7 +9,7 @@
         "locations" : [ "forest" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : true,
+        "rotate" : false,
         "flags" : [ "CLASSIC" ]
     },
     {
@@ -22,7 +22,7 @@
         "locations" : [ "field" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : true,
+        "rotate" : false,
         "flags" : [ "CLASSIC" ]
     },
     {
@@ -35,7 +35,7 @@
         "locations" : [ "swamp" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : true,
+        "rotate" : false,
         "flags" : [ "CLASSIC" ]
     },
     {
@@ -52,7 +52,7 @@
         "locations" : [ "forest" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : true,
+        "rotate" : false,
         "flags" : [ "CLASSIC" ]
     },
     {
@@ -69,7 +69,7 @@
         "locations" : [ "field" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : true,
+        "rotate" : false,
         "flags" : [ "CLASSIC" ]
     },
     {
@@ -86,7 +86,7 @@
         "locations" : [ "swamp" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : true,
+        "rotate" : false,
         "flags" : [ "CLASSIC" ]
     }
 ]

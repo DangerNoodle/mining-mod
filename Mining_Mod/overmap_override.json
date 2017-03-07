@@ -1,5 +1,11 @@
 [
     {
+        "type" : "overmap_terrain",
+        "id" : "empty_rock",
+        "copy-from" : "empty_rock",
+        "flags" : [ "NO_ROTATE" ]
+    },
+    {
         "type" : "overmap_special",
         "id" : "Crater",
         "copy-from" : "Crater",
