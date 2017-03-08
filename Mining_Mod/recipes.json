@@ -12,8 +12,7 @@
     "autolearn": true,
     "result_mult": 2,
     "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "crucible", -1 ] ],
+      [ [ "crucible", -1 ], ["crucible_clay", -1] ],
       [ [ "toolset", 10 ], [ "fire", -1 ] ]
     ],
     "components": [ [ [ "chunk_copper", 1 ] ] ]
@@ -31,8 +30,7 @@
     "autolearn": true,
     "result_mult": 4,
     "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "crucible", -1 ] ],
+      [ [ "crucible", -1 ], ["crucible_clay", -1] ],
       [ [ "toolset", 10 ], [ "fire", -1 ] ]
     ],
     "components": [ [ [ "chunk_silver", 1 ] ] ]
@@ -50,8 +48,7 @@
     "autolearn": true,
     "result_mult": 4,
     "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "crucible", -1 ] ],
+      [ [ "crucible", -1 ], ["crucible_clay", -1] ],
       [ [ "toolset", 10 ], [ "fire", -1 ] ]
     ],
     "components": [ [ [ "chunk_gold", 1 ] ] ]
@@ -68,8 +65,7 @@
     "batch_time_factors": [ 90, 4 ],
     "autolearn": true,
     "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "crucible", -1 ] ],
+      [ [ "crucible", -1 ], ["crucible_clay", -1] ],
       [ [ "toolset", 10 ], [ "fire", -1 ] ]
     ],
     "components": [ [ [ "chunk_aluminum", 1 ] ] ]
@@ -84,11 +80,12 @@
     "difficulty": 3,
     "time": 40000,
     "batch_time_factors": [ 90, 4 ],
-    "book_learn": [ [ "recipe_bullets", 4 ], [ "textbook_fabrication", 5 ], [ "welding_book", 3 ] ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "textbook_fabrication", 2 ], [ "welding_book", 2 ] ],
+    "autolearn": true,
     "result_mult": 4,
     "byproducts": [ [ "silver_small" ] ],
     "tools": [
-      [ [ "crucible", -1 ] ],
+      [ [ "crucible", -1 ], ["crucible_clay", -1] ],
       [ [ "forge", 60 ], [ "char_forge", 60 ] ]
     ],
     "components": [ [ [ "chunk_galena", 1 ] ] ]
@@ -103,10 +100,11 @@
     "difficulty": 4,
     "time": 60000,
     "batch_time_factors": [ 90, 4 ],
-    "book_learn": [ [ "textbook_armschina", 5 ], [ "textbook_fabrication", 6 ], [ "welding_book", 4 ] ],
+    "book_learn": [ [ "textbook_armschina", 3 ], [ "textbook_fabrication", 3 ], [ "welding_book", 3 ] ],
+    "autolearn": true,
     "result_mult": 2,
     "tools": [
-      [ [ "crucible", -1 ] ],
+      [ [ "crucible", -1 ], ["crucible_clay", -1] ],
       [ [ "forge", 80 ], [ "char_forge", 80 ] ]
     ],
     "components": [
@@ -128,7 +126,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "tools": [
       [ [ "anvil", -1 ] ],
-      [ [ "crucible", -1 ] ],
+      [ [ "crucible", -1 ], ["crucible_clay", -1] ],
       [ [ "forge", 200 ], [ "char_forge", 40 ], [ "oxy_torch", 40 ] ]
     ],
     "components": [
