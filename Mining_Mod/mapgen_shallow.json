@@ -3,7 +3,7 @@
   "type" : "mapgen",
   "om_terrain" : ["vein_rock"],
   "method": "json",
-  "weight": 750, "comment": "Coal vein.",
+  "weight": 100, "comment": "Coal vein.",
   "object": {
    "rows": [
     "                        ",
@@ -42,7 +42,7 @@
   "type" : "mapgen",
   "om_terrain" : ["vein_rock"],
   "method": "json",
-  "weight": 1000, "comment": "Rock salt, technically a cluster.",
+  "weight": 110, "comment": "Rock salt, technically a cluster.",
   "object": {
    "rows": [
     "                        ",
@@ -81,7 +81,7 @@
   "type" : "mapgen",
   "om_terrain" : ["vein_rock"],
   "method": "json",
-  "weight": 500, "comment": "Niter, technically a cluster.",
+  "weight": 100, "comment": "Niter, technically a cluster.",
   "object": {
    "rows": [
     "                        ",
@@ -120,7 +120,7 @@
   "type" : "mapgen",
   "om_terrain" : ["vein_rock"],
   "method": "json",
-  "weight": 500, "comment": "Brimstone, technically a cluster.",
+  "weight": 110, "comment": "Brimstone, technically a cluster.",
   "object": {
    "rows": [
     "                        ",
@@ -159,7 +159,7 @@
   "type" : "mapgen",
   "om_terrain" : ["vein_rock"],
   "method": "json",
-  "weight": 500, "comment": "Native copper vein.",
+  "weight": 110, "comment": "Native copper vein.",
   "object": {
    "rows": [
     "                        ",
@@ -198,7 +198,7 @@
   "type" : "mapgen",
   "om_terrain" : ["vein_rock"],
   "method": "json",
-  "weight": 250, "comment": "Native silver vein.",
+  "weight": 75, "comment": "Native silver vein.",
   "object": {
    "rows": [
     "                        ",
@@ -237,7 +237,7 @@
   "type" : "mapgen",
   "om_terrain" : ["vein_rock"],
   "method": "json",
-  "weight": 100, "comment": "Native gold vein.",
+  "weight": 50, "comment": "Native gold vein.",
   "object": {
    "rows": [
     "                        ",
@@ -276,7 +276,7 @@
   "type" : "mapgen",
   "om_terrain" : ["vein_rock"],
   "method": "json",
-  "weight": 50, "comment": "Native aluminum cluster, which is highly rare.",
+  "weight": 25, "comment": "Native aluminum cluster, which is highly rare.",
   "object": {
    "rows": [
     "                        ",
@@ -315,7 +315,7 @@
   "type" : "mapgen",
   "om_terrain" : ["vein_rock"],
   "method": "json",
-  "weight": 300, "comment": "Galena vein.",
+  "weight": 110, "comment": "Galena vein.",
   "object": {
    "rows": [
     "                        ",
@@ -354,7 +354,7 @@
   "type" : "mapgen",
   "om_terrain" : ["vein_rock"],
   "method": "json",
-  "weight": 400, "comment": "Hematite vein.",
+  "weight": 200, "comment": "Hematite vein.",
   "object": {
    "rows": [
     "                        ",

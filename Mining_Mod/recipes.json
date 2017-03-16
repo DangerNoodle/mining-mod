@@ -71,6 +71,25 @@
     "components": [ [ [ "chunk_aluminum", 1 ] ] ]
   },
   {
+    "result": "tin",
+    "type": "recipe",
+    "id_suffix": "smelt",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": 40000,
+    "batch_time_factors": [ 90, 4 ],
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "textbook_fabrication", 2 ], [ "welding_book", 2 ] ],
+    "autolearn": true,
+    "result_mult": 2,
+    "tools": [
+      [ [ "crucible", -1 ], ["crucible_clay", -1] ],
+      [ [ "forge", 60 ], [ "char_forge", 60 ] ]
+    ],
+    "components": [ [ [ "chunk_cassiterite", 1 ] ] ]
+  },
+  {
     "result": "lead",
     "type": "recipe",
     "id_suffix": "smelt",
