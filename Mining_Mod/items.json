@@ -127,6 +127,6 @@
     "symbol": "/",
     "color": "light_red",
     "use_action": "PICKAXE",
-    "flags": [ "SPEAR", "NONCONDUCTIVE" ]
+    "flags": [ "SPEAR", "NONCONDUCTIVE", "FRAGILE" ]
   }
 ]
