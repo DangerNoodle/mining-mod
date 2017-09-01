@@ -9,8 +9,7 @@
         "locations" : [ "forest" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : false,
-        "flags" : [ "CLASSIC" ]
+        "flags" : [ "CLASSIC", "NO_ROTATE" ]
     },
     {
         "type" : "overmap_special",
@@ -22,8 +21,7 @@
         "locations" : [ "field" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : false,
-        "flags" : [ "CLASSIC" ]
+        "flags" : [ "CLASSIC", "NO_ROTATE" ]
     },
     {
         "type" : "overmap_special",
@@ -35,8 +33,7 @@
         "locations" : [ "swamp" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : false,
-        "flags" : [ "CLASSIC" ]
+        "flags" : [ "CLASSIC", "NO_ROTATE" ]
     },
     {
         "type" : "overmap_special",
@@ -52,8 +49,7 @@
         "locations" : [ "forest" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : false,
-        "flags" : [ "CLASSIC" ]
+        "flags" : [ "CLASSIC", "NO_ROTATE" ]
     },
     {
         "type" : "overmap_special",
@@ -69,8 +65,7 @@
         "locations" : [ "field" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : false,
-        "flags" : [ "CLASSIC" ]
+        "flags" : [ "CLASSIC", "NO_ROTATE" ]
     },
     {
         "type" : "overmap_special",
@@ -86,7 +81,6 @@
         "locations" : [ "swamp" ],
         "city_distance" : [0, -1],
         "occurrences" : [2, 200],
-        "rotate" : false,
-        "flags" : [ "CLASSIC" ]
+        "flags" : [ "CLASSIC", "NO_ROTATE" ]
     }
 ]
