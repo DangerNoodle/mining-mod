@@ -128,5 +128,26 @@
     "color": "light_red",
     "use_action": "PICKAXE",
     "flags": [ "SPEAR", "NONCONDUCTIVE", "FRAGILE" ]
+  },
+  {
+    "id": "pickaxe_bone",
+    "type": "TOOL",
+    "name": "bone pickaxe",
+    "description": "This is a primitive pickaxe, traditionally made from antler or bone, and fire-hardened for greater hardness.  It will wear out with use, but still suitable for striking the earth.",
+    "sub": "jackhammer",
+    "weight": 760,
+    "volume": 10,
+    "price": 800,
+    "to_hit": -3,
+    "bashing": 10,
+    "cutting": 3,
+    "material": [ "wood" ],
+    "symbol": "/",
+    "color": "white",
+    "initial_charges": 90,
+    "max_charges": 90,
+    "charges_per_use": 10,
+    "use_action": "PICKAXE",
+    "flags": [ "SPEAR", "FRAGILE" ]
   }
 ]
