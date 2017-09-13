@@ -11,7 +11,8 @@
     "description" : "A large chunk of copper, in its native state.  It only needs to be worked into a more usable shape.",
     "material" : "copper",
     "volume" : 4,
-    "weight" : 2600,
+    "//" : "Density of one liter of copper, item is native metal.",
+    "weight" : 8960,
     "bashing" : 2,
     "ammo_type" : "components"
   },
@@ -27,8 +28,9 @@
     "description" : "A large chunk of silver, in its native state.  It only needs to be molded into a more usable shape.",
     "material" : "silver",
     "volume" : 4,
-    "weight" : 2500,
-    "bashing" : 2,
+    "//" : "Density of one liter of silver, item is native metal.",
+    "weight" : 10490,
+    "bashing" : 3,
     "ammo_type" : "components"
   },
   {
@@ -43,8 +45,9 @@
     "description" : "A large chunk of native gold, a rare find.  It only needs to be molded into a more usable shape.",
     "material" : "gold",
     "volume" : 4,
-    "weight" : 3000,
-    "bashing" : 3,
+    "//" : "Density of one liter of gold, item is native metal.  Massivelly heavy.",
+    "weight" : 19320,
+    "bashing" : 4,
     "ammo_type" : "components"
   },
   {
@@ -59,7 +62,8 @@
     "description" : "A large chunk of native aluminum, which would have been priceless before other ways to obtain aluminum were invented.  It needs to be cast into an ingot.",
     "material" : "aluminum",
     "volume" : 4,
-    "weight" : 2000,
+    "//" : "Density of one liter of aluminum, item is native metal.",
+    "weight" : 2700,
     "bashing" : 1,
     "ammo_type" : "components"
   },
@@ -75,7 +79,8 @@
     "description" : "A large chunk of cassiterite, an ore of tin.  It only needs to be smelted into a usable form.",
     "material" : "stone",
     "volume" : 4,
-    "weight" : 3100,
+    "//" : "One liter, roughly 6.26 grams per cubic centimeter.",
+    "weight" : 6260,
     "bashing" : 2,
     "ammo_type" : "components"
   },
@@ -91,7 +96,8 @@
     "description" : "A large chunk of galena, a lead ore with small amounts of silver.  It only needs to be smelted into a usable form.",
     "material" : "stone",
     "volume" : 4,
-    "weight" : 3400,
+    "//" : "One liter, roughly 7.6 grams per cubic centimeter.",
+    "weight" : 7600,
     "bashing" : 3,
     "ammo_type" : "components"
   },
@@ -107,7 +113,8 @@
     "description" : "A large chunk of hematite, an ore of iron.  It only needs to be smelted into a usable form.",
     "material" : "stone",
     "volume" : 4,
-    "weight" : 2400,
+    "//" : "One liter, roughly 5.04 grams per cubic centimeter.",
+    "weight" : 5040,
     "bashing" : 2,
     "ammo_type" : "components"
   },
