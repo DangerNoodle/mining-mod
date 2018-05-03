@@ -7,7 +7,7 @@
     "color": [ "dkgray" ],
     "move_cost_mod": 3,
     "required_str": 8,
-    "crafting_pseudo_item": "anvil",
+    "crafting_pseudo_item": "boulder_anvil_leveled",
     "bash": {
       "str_min": 12,
       "str_max": 36,

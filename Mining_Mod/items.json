@@ -156,5 +156,12 @@
     "charges_per_use": 10,
     "use_action": "PICKAXE",
     "flags": [ "SPEAR", "FRAGILE" ]
+  },
+  {
+    "id": "boulder_anvil_leveled",
+    "type": "TOOL",
+    "copy-from": "fake_item",
+    "name": "leveled boulder anvil",
+    "qualities": [ [ "ANVIL", 2 ] ]
   }
 ]
