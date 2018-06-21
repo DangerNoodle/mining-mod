@@ -134,7 +134,7 @@
     "symbol": "/",
     "color": "light_red",
     "use_action": "PICKAXE",
-    "flags": [ "SPEAR", "NONCONDUCTIVE", "FRAGILE" ]
+    "flags": [ "SPEAR", "NONCONDUCTIVE", "FRAGILE_MELEE" ]
   },
   {
     "id": "pickaxe_bone",
