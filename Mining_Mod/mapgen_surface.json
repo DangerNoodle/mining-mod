@@ -518,7 +518,6 @@
         "%": "t_dirt"
    },
       "furniture": {
-        " ": [ "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_cattails" ],
         ".": [ "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_rubble_rock" ],
         "%": [ "f_null", "f_rubble_rock" ]
       },
@@ -582,7 +581,6 @@
         "%": "t_dirt"
    },
       "furniture": {
-        " ": [ "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_cattails" ],
         ".": [ "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_rubble_rock" ],
         "%": [ "f_null", "f_rubble_rock" ]
       },

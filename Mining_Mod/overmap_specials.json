@@ -7,7 +7,7 @@
             { "point":[0,0,-1], "overmap": "vein_rock"}
         ],
         "locations" : [ "forest" ],
-        "city_distance" : [10, -1],
+        "city_distance" : [5, -1],
         "city_sizes" : [0, 12],
         "occurrences" : [1, 10],
         "rotate" : false,
@@ -21,7 +21,7 @@
             { "point":[0,0,-1], "overmap": "vein_rock"}
         ],
         "locations" : [ "wilderness" ],
-        "city_distance" : [10, -1],
+        "city_distance" : [5, -1],
         "city_sizes" : [0, 12],
         "occurrences" : [1, 10],
         "rotate" : false,
@@ -35,7 +35,7 @@
             { "point":[0,0,-1], "overmap": "vein_hematite"}
         ],
         "locations" : [ "swamp" ],
-        "city_distance" : [10, -1],
+        "city_distance" : [5, -1],
         "city_sizes" : [0, 12],
         "occurrences" : [1, 10],
         "rotate" : false,
@@ -46,14 +46,14 @@
         "id" : "vein_forest_deep",
         "overmaps" : [
             { "point":[0,0,0], "overmap": "forest_vein"},
-            { "point":[0,0,-1], "overmap": "empty_rock"},
+            { "point":[0,0,-1], "overmap": "vein_maybe"},
             { "point":[0,0,-2], "overmap": "vein_maybe"},
             { "point":[0,0,-3], "overmap": "vein_maybe"},
             { "point":[0,0,-4], "overmap": "vein_maybe"},
             { "point":[0,0,-5], "overmap": "vein_maybe"}
         ],
         "locations" : [ "forest" ],
-        "city_distance" : [10, -1],
+        "city_distance" : [5, -1],
         "city_sizes" : [0, 12],
         "occurrences" : [1, 10],
         "rotate" : false,
@@ -64,14 +64,14 @@
         "id" : "vein_field_deep",
         "overmaps" : [
             { "point":[0,0,0], "overmap": "field_deep"},
-            { "point":[0,0,-1], "overmap": "empty_rock"},
+            { "point":[0,0,-1], "overmap": "vein_maybe"},
             { "point":[0,0,-2], "overmap": "vein_maybe"},
             { "point":[0,0,-3], "overmap": "vein_maybe"},
             { "point":[0,0,-4], "overmap": "vein_maybe"},
             { "point":[0,0,-5], "overmap": "vein_maybe"}
         ],
         "locations" : [ "wilderness" ],
-        "city_distance" : [10, -1],
+        "city_distance" : [5, -1],
         "city_sizes" : [0, 12],
         "occurrences" : [1, 10],
         "rotate" : false,
@@ -89,7 +89,7 @@
             { "point":[0,0,-5], "overmap": "vein_maybe"}
         ],
         "locations" : [ "swamp" ],
-        "city_distance" : [10, -1],
+        "city_distance" : [5, -1],
         "city_sizes" : [0, 12],
         "occurrences" : [1, 10],
         "rotate" : false,
