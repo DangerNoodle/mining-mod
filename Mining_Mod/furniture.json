@@ -3,6 +3,7 @@
     "id": "f_anvil_stone",
     "type": "furniture",
     "name": "stone anvil",
+    "description": "A anvil, it looks rock solid",
     "symbol": "^",
     "color": [ "dkgray" ],
     "move_cost_mod": 3,
