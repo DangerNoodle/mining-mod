@@ -1,6 +1,7 @@
 [
     {
         "type" : "construction",
+        "id" : "minmod_anvil_med",
         "description" : "Make stone anvil",
         "category" : "FURN",
         "required_skills" : [ [ "fabrication", 4 ], [ "survival", 2 ] ],
@@ -14,6 +15,7 @@
     },
     {
         "type" : "construction",
+        "id" : "minmod_anvil_large",
         "description" : "Make stone anvil",
         "category" : "FURN",
         "required_skills" : [ [ "fabrication", 4 ], [ "survival", 2 ] ],
