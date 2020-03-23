@@ -33,7 +33,6 @@
         "color" : "brown",
         "see_cost" : 2,
         "extras" : "field",
-        "spawns" : { "group": "GROUP_FOREST", "population": [0, 1], "chance": 80 },
         "flags" : [ "NO_ROTATE" ]
     },{
         "type" : "overmap_terrain",
@@ -43,7 +42,6 @@
         "color" : "brown",
         "see_cost" : 2,
         "extras" : "field",
-        "spawns" : { "group": "GROUP_FOREST", "population": [0, 1], "chance": 80 },
         "flags" : [ "NO_ROTATE" ]
     },{
         "type" : "overmap_terrain",
@@ -53,7 +51,6 @@
         "color" : "green",
         "see_cost" : 3,
         "extras" : "field",
-        "spawns" : { "group": "GROUP_FOREST", "population": [0, 3], "chance": 80 },
         "flags" : [ "NO_ROTATE" ]
     },
     {
@@ -64,7 +61,6 @@
         "color" : "cyan",
         "see_cost" : 4,
         "extras" : "field",
-        "spawns" : { "group": "GROUP_SWAMP", "population": [1, 4], "chance": 100 },
         "flags" : [ "NO_ROTATE" ]
     },
     {
@@ -75,7 +71,14 @@
         "color" : "cyan",
         "see_cost" : 4,
         "extras" : "field",
-        "spawns" : { "group": "GROUP_SWAMP", "population": [1, 4], "chance": 100 },
         "flags" : [ "NO_ROTATE" ]
+    },{
+        "type" : "overmap_terrain",
+        "id" : "alluvial_deposit",
+        "name" : "alluvial deposit",
+        "sym" : ".",
+        "color" : "light_gray",
+        "see_cost" : 2,
+        "extras" : "field"
     }
 ]
