@@ -1,32 +1,28 @@
 [
-    {
-        "type" : "construction",
-        "id" : "minmod_anvil_med",
-        "description" : "Make stone anvil",
-        "category" : "FURN",
-        "required_skills" : [ [ "fabrication", 4 ], [ "survival", 2 ] ],
-        "time" : "120 m",
-        "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
-        "tools" : [
-            [ [ "pickaxe", -1 ], [ "jackhammer", 30 ], [ "elec_jackhammer", 30 ] ]
-        ],
-        "pre_terrain" : "f_boulder_medium",
-        "post_terrain" : "f_anvil_stone"
-    },
-    {
-        "type" : "construction",
-        "id" : "minmod_anvil_large",
-        "description" : "Make stone anvil",
-        "category" : "FURN",
-        "required_skills" : [ [ "fabrication", 4 ], [ "survival", 2 ] ],
-        "time" : "120 m",
-        "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
-        "tools" : [
-            [ [ "pickaxe", -1 ], [ "jackhammer", 30 ], [ "elec_jackhammer", 30 ] ]
-        ],
-        "pre_terrain" : "f_boulder_large",
-        "post_terrain" : "f_anvil_stone"
-    },
+  {
+    "type": "construction",
+    "id": "minmod_anvil_med",
+    "description": "Make stone anvil",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 4 ], [ "survival", 2 ] ],
+    "time": "120 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
+    "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 30 ], [ "elec_jackhammer", 30 ] ] ],
+    "pre_terrain": "f_boulder_medium",
+    "post_terrain": "f_anvil_stone"
+  },
+  {
+    "type": "construction",
+    "id": "minmod_anvil_large",
+    "description": "Make stone anvil",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 4 ], [ "survival", 2 ] ],
+    "time": "120 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
+    "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 30 ], [ "elec_jackhammer", 30 ] ] ],
+    "pre_terrain": "f_boulder_large",
+    "post_terrain": "f_anvil_stone"
+  },
   {
     "type": "construction",
     "id": "constr_extract_sand_black",
