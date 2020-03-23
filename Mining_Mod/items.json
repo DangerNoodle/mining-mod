@@ -163,5 +163,22 @@
     "copy-from": "fake_item",
     "name": "leveled boulder anvil",
     "qualities": [ [ "ANVIL", 3 ] ]
+  },
+  {
+    "type": "AMMO",
+    "id": "material_sand_black",
+    "category": "spare_parts",
+    "price": 0,
+    "name": { "str": "black sand", "str_pl": "black sand" },
+    "symbol": "=",
+    "color": "dark_gray",
+    "description": "A handful of sand, rich with minerals eroded from a deposit somewhere upstream.  Not as useful in this state, but might be a source of magnetite.",
+    "material": "powder_nonflam",
+    "volume": "250 ml",
+    "//": "Roughly half magnetite, which has a density of 7.874 grams per cubic liter, and each unit is 5 mL.",
+    "weight": "23 g",
+    "bashing": 1,
+    "ammo_type": "components",
+    "count": 50
   }
 ]

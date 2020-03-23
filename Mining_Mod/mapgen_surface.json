@@ -541,7 +541,7 @@
   "type" : "mapgen",
   "om_terrain" : ["swamp_hematite"],
   "method": "json",
-  "weight": 1000, "comment": "Suspisciously dry, dead patch of ground, with small hints of fragmenta.  Some chance of bog iron.",
+  "weight": 1000, "comment": "Suspiciously dry, dead patch of ground, with small hints of fragmenta.  Some chance of bog iron.",
   "object": {
    "rows": [
     "                        ",
@@ -598,6 +598,44 @@
           ]
         }
       }
+	}
+},
+{
+  "type" : "mapgen",
+  "om_terrain" : ["alluvial_deposit"],
+  "method": "json",
+  "weight": 1000, "//": "Ground is more barren and signs of water flow, leaving alluvial deposits in the form of black sand.",
+  "object": {
+   "rows": [
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "          ....          ",
+    "         ......         ",
+    "        ........        ",
+    "        ........        ",
+    "        ........        ",
+    "        ........        ",
+    "         ......         ",
+    "          ....          ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        ",
+    "                        "
+            ],
+   "terrain": {
+      " ": [ [ "t_region_groundcover_barren", 5 ], [ "t_region_groundcover", 3 ], [ "t_water_sh", 2 ], "t_sand" ],
+        ".": [ [ "t_region_groundcover_barren", 4 ], "t_sand" ]
+   }
 	}
 }
 ]
