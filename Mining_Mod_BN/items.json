@@ -137,8 +137,8 @@
     "material": [ "wood" ],
     "symbol": "/",
     "color": "white",
-    "initial_charges": 90,
-    "max_charges": 90,
+    "initial_charges": 200,
+    "max_charges": 200,
     "charges_per_use": 10,
     "use_action": "PICKAXE",
     "flags": [ "SPEAR", "FRAGILE", "DIG_TOOL" ]
