@@ -138,7 +138,7 @@
     "symbol": "/",
     "color": "white",
     "use_action": "PICKAXE",
-    "flags": [ "SPEAR", "FRAGILE", "DIG_TOOL" ]
+    "flags": [ "SPEAR", "FRAGILE_MELEE", "DIG_TOOL" ]
   },
   {
     "id": "boulder_anvil_leveled",
