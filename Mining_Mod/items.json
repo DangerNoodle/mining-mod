@@ -12,7 +12,7 @@
     "volume": "1 L",
     "//": "Density of one liter of copper, item is native metal.",
     "weight": "8960 g",
-    "bashing": 2
+    "melee_damage": { "bash": 2 }
   },
   {
     "type": "GENERIC",
@@ -27,7 +27,7 @@
     "volume": "1 L",
     "//": "Density of one liter of silver, item is native metal.",
     "weight": "10490 g",
-    "bashing": 3
+    "melee_damage": { "bash": 3 }
   },
   {
     "type": "GENERIC",
@@ -42,7 +42,7 @@
     "volume": "1 L",
     "//": "Density of one liter of gold, item is native metal.  Massivelly heavy.",
     "weight": "19320 g",
-    "bashing": 4
+    "melee_damage": { "bash": 4 }
   },
   {
     "type": "GENERIC",
@@ -57,7 +57,7 @@
     "volume": "1 L",
     "//": "Density of one liter of aluminum, item is native metal.",
     "weight": "2700 g",
-    "bashing": 1
+    "melee_damage": { "bash": 1 }
   },
   {
     "type": "GENERIC",
@@ -72,7 +72,7 @@
     "volume": "1 L",
     "//": "One liter, roughly 6.26 grams per cubic centimeter.",
     "weight": "6260 g",
-    "bashing": 2
+    "melee_damage": { "bash": 2 }
   },
   {
     "type": "GENERIC",
@@ -87,7 +87,7 @@
     "volume": "1 L",
     "//": "One liter, roughly 7.6 grams per cubic centimeter.",
     "weight": "7600 g",
-    "bashing": 3
+    "melee_damage": { "bash": 3 }
   },
   {
     "type": "GENERIC",
@@ -102,7 +102,7 @@
     "volume": "1 L",
     "//": "One liter, roughly 5.04 grams per cubic centimeter.",
     "weight": "5040 g",
-    "bashing": 2
+    "melee_damage": { "bash": 2 }
   },
   {
     "id": "pickaxe_copper",
@@ -114,13 +114,12 @@
     "volume": "3 L",
     "price": 1600,
     "to_hit": -3,
-    "bashing": 12,
-    "cutting": 4,
+    "melee_damage": { "bash": 12, "stab": 4 },
     "material": [ "wood", "copper" ],
     "symbol": "/",
     "color": "light_red",
     "use_action": "PICKAXE",
-    "flags": [ "SPEAR", "NONCONDUCTIVE", "FRAGILE_MELEE", "DIG_TOOL" ]
+    "flags": [ "NONCONDUCTIVE", "FRAGILE_MELEE", "DIG_TOOL" ]
   },
   {
     "id": "pickaxe_bone",
@@ -132,13 +131,12 @@
     "volume": 10,
     "price": 800,
     "to_hit": -3,
-    "bashing": 10,
-    "cutting": 3,
+    "melee_damage": { "bash": 10, "stab": 3 },
     "material": [ "wood" ],
     "symbol": "/",
     "color": "white",
     "use_action": "PICKAXE",
-    "flags": [ "SPEAR", "FRAGILE_MELEE", "DIG_TOOL" ]
+    "flags": [ "FRAGILE_MELEE", "DIG_TOOL" ]
   },
   {
     "id": "boulder_anvil_leveled",
