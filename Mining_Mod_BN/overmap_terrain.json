@@ -75,14 +75,5 @@
     "see_cost": 4,
     "extras": "field",
     "flags": [ "NO_ROTATE" ]
-  },
-  {
-    "type": "overmap_terrain",
-    "id": "alluvial_deposit",
-    "name": "alluvial deposit",
-    "sym": ".",
-    "color": "light_gray",
-    "see_cost": 2,
-    "extras": "field"
   }
 ]
