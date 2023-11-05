@@ -90,21 +90,6 @@
     "bashing": 3
   },
   {
-    "type": "GENERIC",
-    "id": "chunk_hematite",
-    "category": "spare_parts",
-    "price": 250,
-    "name": { "str": "chunk of hematite", "str_pl": "chunks of hematite" },
-    "symbol": "*",
-    "color": "brown",
-    "description": "A large chunk of hematite, an ore of iron.  It only needs to be smelted into a usable form.",
-    "material": "stone",
-    "volume": "1 L",
-    "//": "One liter, roughly 5.04 grams per cubic centimeter.",
-    "weight": "5040 g",
-    "bashing": 2
-  },
-  {
     "id": "pickaxe_copper",
     "type": "TOOL",
     "name": { "str": "copper pickaxe" },
@@ -146,20 +131,5 @@
     "copy-from": "fake_item",
     "name": { "str": "leveled boulder anvil" },
     "qualities": [ [ "ANVIL", 3 ] ]
-  },
-  {
-    "type": "AMMO",
-    "id": "material_sand_black",
-    "category": "spare_parts",
-    "name": { "str_sp": "black sand" },
-    "symbol": "=",
-    "color": "dark_gray",
-    "description": "A handful of sand, rich with minerals eroded from a deposit somewhere upstream.  Not as useful in this state, but might be a source of magnetite.",
-    "material": "powder_nonflam",
-    "volume": "250 ml",
-    "//": "Roughly half magnetite, which has a density of 7.874 grams per cubic liter, and each unit is 5 mL.",
-    "weight": "23 g",
-    "ammo_type": "components",
-    "count": 50
   }
 ]

@@ -1,17 +1,5 @@
 [
   {
-    "id": "minerals_swamp",
-    "type": "item_group",
-    "//": "Technically limonite develops as bog iron, not hematite.",
-    "items": [ [ "chunk_hematite", 10 ] ]
-  },
-  {
-    "id": "rubble_fake",
-    "type": "item_group",
-    "//": "Unable to both randomly placed rubble and ensure rocks spawn underneath.",
-    "items": [ { "item": "rock", "prob": 100, "count-min": 1, "count-max": 3 } ]
-  },
-  {
     "type": "mapgen",
     "om_terrain": [ "field_shallow" ],
     "method": "json",
@@ -110,8 +98,7 @@
       "furniture": {
         "#": [ "f_boulder_small", "f_boulder_medium", "f_boulder_large" ],
         "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
-      },
-      "mapping": { "?": { "items": { "item": "rubble_fake", "chance": 33 } } }
+      }
     }
   },
   {
@@ -209,8 +196,7 @@
         ".": "t_dirt",
         "%": "t_dirt"
       },
-      "furniture": { "%": [ "f_null", "f_rubble_rock" ] },
-      "mapping": { "%": { "items": { "item": "rubble_fake", "chance": 50 } } }
+      "furniture": { "%": [ "f_null", "f_rubble_rock" ] }
     }
   },
   {
@@ -309,8 +295,7 @@
         "#": "t_rock",
         "?": "t_dirt"
       },
-      "furniture": { "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ] },
-      "mapping": { "?": { "items": { "item": "rubble_fake", "chance": 33 } } }
+      "furniture": { "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ] }
     }
   },
   {
@@ -412,8 +397,7 @@
       "furniture": {
         "#": [ "f_boulder_small", "f_boulder_medium", "f_boulder_large" ],
         "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
-      },
-      "mapping": { "?": { "items": { "item": "rubble_fake", "chance": 33 } } }
+      }
     }
   },
   {
@@ -511,8 +495,7 @@
         ".": "t_dirt",
         "%": "t_dirt"
       },
-      "furniture": { "%": [ "f_null", "f_rubble_rock" ] },
-      "mapping": { "%": { "items": { "item": "rubble_fake", "chance": 50 } } }
+      "furniture": { "%": [ "f_null", "f_rubble_rock" ] }
     }
   },
   {
@@ -611,8 +594,7 @@
         "#": "t_rock",
         "?": "t_dirt"
       },
-      "furniture": { "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ] },
-      "mapping": { "?": { "items": { "item": "rubble_fake", "chance": 33 } } }
+      "furniture": { "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ] }
     }
   },
   {
@@ -717,8 +699,7 @@
       "furniture": {
         "#": [ "f_boulder_small", "f_boulder_medium", "f_boulder_large" ],
         "?": [ "f_boulder_small", "f_boulder_medium", "f_rubble_rock" ]
-      },
-      "mapping": { "?": { "items": { "item": "rubble_fake", "chance": 33 } } }
+      }
     }
   },
   {
@@ -813,8 +794,7 @@
         ],
         "%": "t_dirt"
       },
-      "furniture": { "%": [ "f_null", "f_rubble_rock" ] },
-      "mapping": { "%": { "items": { "item": "rubble_fake", "chance": 50 } } }
+      "furniture": { "%": [ "f_null", "f_rubble_rock" ] }
     }
   },
   {
@@ -946,8 +926,7 @@
           "f_rubble_rock"
         ],
         "%": [ "f_null", "f_rubble_rock" ]
-      },
-      "mapping": { ".": { "items": { "item": "rubble_fake", "chance": 3 } }, "%": { "items": { "item": "rubble_fake", "chance": 50 } } }
+      }
     }
   },
   {
@@ -983,146 +962,8 @@
         "                        ",
         "                        "
       ],
-      "terrain": {
-        " ": [
-          "t_water_sh",
-          "t_water_dp",
-          "t_grass",
-          "t_grass",
-          "t_grass",
-          "t_grass",
-          "t_grass",
-          "t_grass",
-          "t_swater_sh",
-          "t_swater_sh",
-          "t_swater_dp",
-          "t_grass",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_swater_sh",
-          "t_swater_dp",
-          "t_swater_sh",
-          "t_grass",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_grass",
-          "t_grass",
-          "t_grass",
-          "t_grass",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_grass",
-          "t_grass",
-          "t_grass",
-          "t_grass",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_grass",
-          "t_grass",
-          "t_grass",
-          "t_grass",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_dirt",
-          "t_underbrush"
-        ],
-        ".": "t_dirt",
-        "%": "t_dirt"
-      },
-      "furniture": {
-        ".": [
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_null",
-          "f_rubble_rock"
-        ],
-        "%": [ "f_null", "f_rubble_rock" ]
-      },
-      "mapping": {
-        ".": { "items": [ { "item": "rubble_fake", "chance": 3 }, { "item": "minerals_swamp", "chance": 1 } ] },
-        "%": { "items": [ { "item": "rubble_fake", "chance": 50 }, { "item": "minerals_swamp", "chance": 20 } ] }
-      }
-    }
-  },
-  {
-    "type": "mapgen",
-    "om_terrain": [ "alluvial_deposit" ],
-    "method": "json",
-    "weight": 1000,
-    "//": "Ground is more barren and signs of water flow, leaving alluvial deposits in the form of black sand.",
-    "object": {
-      "rows": [
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "          ....          ",
-        "         ......         ",
-        "        ........        ",
-        "        ........        ",
-        "        ........        ",
-        "        ........        ",
-        "         ......         ",
-        "          ....          ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        "
-      ],
-      "terrain": {
-        " ": [ [ "t_region_groundcover", 15 ], [ "t_region_groundcover_barren", 10 ], [ "t_swater_sh", 5 ], "t_sand_black" ],
-        ".": [ [ "t_region_groundcover_barren", 4 ], "t_sand_black" ]
-      }
+      "terrain": { " ": "t_region_groundcover_swamp", ".": [ [ "t_region_groundcover_swamp", 9 ], "t_bog_iron" ], "%": "t_dirt" },
+      "furniture": { ".": [ [ "f_null", 29 ], "f_rubble_rock" ], "%": [ "f_null", "f_rubble_rock" ] }
     }
   }
 ]

@@ -1,0 +1,102 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "chunk_hematite",
+    "category": "spare_parts",
+    "price": 250,
+    "name": { "str": "chunk of hematite", "str_pl": "chunks of hematite" },
+    "symbol": "*",
+    "color": "brown",
+    "description": "A large chunk of hematite, an ore of iron.  It only needs to be smelted into a usable form.",
+    "material": "stone",
+    "volume": "1 L",
+    "//": "One liter, roughly 5.04 grams per cubic centimeter.",
+    "weight": "5040 g",
+    "bashing": 2
+  },
+  {
+    "type": "AMMO",
+    "id": "material_sand_black",
+    "category": "spare_parts",
+    "name": { "str_sp": "black sand" },
+    "symbol": "=",
+    "color": "dark_gray",
+    "description": "A handful of sand, rich with minerals eroded from a deposit somewhere upstream.  Not as useful in this state, but might be a source of magnetite.",
+    "material": "powder_nonflam",
+    "volume": "250 ml",
+    "//": "Roughly half magnetite, which has a density of 7.874 grams per cubic liter, and each unit is 5 mL.",
+    "weight": "23 g",
+    "ammo_type": "components",
+    "count": 50
+  },
+  {
+    "type": "terrain",
+    "id": "t_sand_black",
+    "looks_like": "t_sand",
+    "name": "black sand",
+    "description": "A patch of dark, heavy sand that seems to no longer be very useful.",
+    "symbol": ".",
+    "color": "light_gray",
+    "move_cost": 3,
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT" ],
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "alluvial_deposit",
+    "name": "alluvial deposit",
+    "sym": ".",
+    "color": "light_gray",
+    "see_cost": 2,
+    "extras": "field"
+  },
+  {
+    "type": "overmap_special",
+    "id": "Alluvial Deposit",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "alluvial_deposit_north" } ],
+    "locations": [ "water", "swamp" ],
+    "occurrences": [ 0, 100 ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, 0 ],
+    "flags": [ "CLASSIC", "WILDERNESS" ]
+  },
+  {
+    "type": "mapgen",
+    "om_terrain": [ "alluvial_deposit" ],
+    "method": "json",
+    "weight": 1000,
+    "//": "Ground is more barren and signs of water flow, leaving alluvial deposits in the form of black sand.",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "          ....          ",
+        "         ......         ",
+        "        ........        ",
+        "        ........        ",
+        "        ........        ",
+        "        ........        ",
+        "         ......         ",
+        "          ....          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        " ": [ [ "t_region_groundcover", 15 ], [ "t_region_groundcover_barren", 10 ], [ "t_swater_sh", 5 ], "t_sand_black" ],
+        ".": [ [ "t_region_groundcover_barren", 4 ], "t_sand_black" ]
+      }
+    }
+  }
+]

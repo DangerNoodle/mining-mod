@@ -205,19 +205,7 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "chunk_hematite", "count": [ 2, 4 ], "prob": 80 } ]
+      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "iron_ore", "count": [ 6, 12 ], "prob": 80 } ]
     }
-  },
-  {
-    "type": "terrain",
-    "id": "t_sand_black",
-    "looks_like": "t_sand",
-    "name": "black sand",
-    "description": "A patch of dark, heavy sand that could be quite useful, if it was extracted properly.",
-    "symbol": ".",
-    "color": "light_gray",
-    "move_cost": 3,
-    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT" ],
-    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
   }
 ]

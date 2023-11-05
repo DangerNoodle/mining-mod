@@ -88,16 +88,6 @@
   },
   {
     "type": "overmap_special",
-    "id": "Alluvial Deposit",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "alluvial_deposit_north" } ],
-    "locations": [ "water", "swamp" ],
-    "occurrences": [ 0, 100 ],
-    "city_distance": [ 5, -1 ],
-    "city_sizes": [ 0, 20 ],
-    "flags": [ "CLASSIC", "WILDERNESS" ]
-  },
-  {
-    "type": "overmap_special",
     "id": "vein_hidden_1",
     "overmaps": [ { "point": [ 0, 0, -1 ], "overmap": "vein_rock" } ],
     "locations": [ "land", "water" ],
