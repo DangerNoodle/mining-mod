@@ -55,7 +55,7 @@
     "id": "Alluvial Deposit",
     "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "alluvial_deposit_north" } ],
     "locations": [ "water", "swamp" ],
-    "occurrences": [ 0, 100 ],
+    "occurrences": [ 0, 0 ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 0, 0 ],
     "flags": [ "CLASSIC", "WILDERNESS" ]
