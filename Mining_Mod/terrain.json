@@ -15,7 +15,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "coal_lump", "charges": [ 250, 500 ] } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "coal_lump", "charges": [ 250, 500 ] }
+      ]
     }
   },
   {
@@ -34,7 +38,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "material_rocksalt", "count": [ 1, 3 ] } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "material_rocksalt", "count": [ 1, 3 ] }
+      ]
     }
   },
   {
@@ -53,7 +61,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "material_niter", "count": [ 1, 3 ], "prob": 80 } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "material_niter", "count": [ 1, 3 ], "prob": 80 }
+      ]
     }
   },
   {
@@ -72,7 +84,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "chunk_sulfur", "count": [ 1, 3 ], "prob": 80 } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "chunk_sulfur", "count": [ 1, 3 ], "prob": 80 }
+      ]
     }
   },
   {
@@ -91,7 +107,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "chunk_copper", "count": [ 1, 3 ], "prob": 80 } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "chunk_copper", "count": [ 1, 3 ], "prob": 80 }
+      ]
     }
   },
   {
@@ -110,7 +130,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "chunk_silver", "count": [ 1, 2 ], "prob": 80 } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "chunk_silver", "count": [ 1, 2 ], "prob": 80 }
+      ]
     }
   },
   {
@@ -129,7 +153,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "chunk_gold", "count": [ 1, 2 ], "prob": 80 } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "chunk_gold", "count": [ 1, 2 ], "prob": 80 }
+      ]
     }
   },
   {
@@ -148,7 +176,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "chunk_aluminum", "count": [ 1, 3 ], "prob": 80 } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "chunk_aluminum", "count": [ 1, 3 ], "prob": 80 }
+      ]
     }
   },
   {
@@ -167,7 +199,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "chunk_cassiterite", "count": [ 2, 4 ], "prob": 80 } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "chunk_cassiterite", "count": [ 2, 4 ], "prob": 80 }
+      ]
     }
   },
   {
@@ -186,7 +222,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "chunk_galena", "count": [ 2, 4 ], "prob": 80 } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "chunk_galena", "count": [ 2, 4 ], "prob": 80 }
+      ]
     }
   },
   {
@@ -205,7 +245,11 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [ { "item": "rock", "count": [ 3, 7 ] }, { "item": "chunk_hematite", "count": [ 2, 4 ], "prob": 80 } ]
+      "items": [
+        { "item": "rock", "count": [ 17, 37 ] },
+        { "item": "rock_large", "count": [ 1, 3 ] },
+        { "item": "chunk_hematite", "count": [ 2, 4 ], "prob": 80 }
+      ]
     }
   },
   {
