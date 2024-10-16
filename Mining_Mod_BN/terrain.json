@@ -19,7 +19,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "coal_lump", "charges": [ 250, 500 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   },
   {
@@ -42,7 +44,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "material_rocksalt", "count": [ 1, 3 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   },
   {
@@ -65,7 +69,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "material_niter", "count": [ 1, 3 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   },
   {
@@ -88,7 +94,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "chunk_sulfur", "count": [ 1, 3 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   },
   {
@@ -111,7 +119,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "chunk_copper", "count": [ 1, 3 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   },
   {
@@ -134,7 +144,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "chunk_silver", "count": [ 1, 2 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   },
   {
@@ -157,7 +169,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "chunk_gold", "count": [ 1, 2 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   },
   {
@@ -180,7 +194,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "chunk_aluminum", "count": [ 1, 3 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   },
   {
@@ -203,7 +219,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "chunk_cassiterite", "count": [ 2, 4 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   },
   {
@@ -226,7 +244,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "chunk_galena", "count": [ 2, 4 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   },
   {
@@ -249,7 +269,9 @@
         { "item": "rock", "count": [ 65, 85 ] },
         { "item": "sharp_rock", "count": [ 5, 9 ] },
         { "item": "iron_ore", "count": [ 10, 20 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 200, 200 ], "destroy_threshold": 200 }
     }
   }
 ]
