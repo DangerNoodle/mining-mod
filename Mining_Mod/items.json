@@ -1,6 +1,7 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+	"subtype": ["GENERIC"],
     "id": "chunk_copper",
     "category": "spare_parts",
     "price": "1 USD",
@@ -15,7 +16,8 @@
     "melee_damage": { "bash": 2 }
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+	"subtype": ["GENERIC"],
     "id": "chunk_silver",
     "category": "spare_parts",
     "price": "5 USD",
@@ -30,7 +32,8 @@
     "melee_damage": { "bash": 3 }
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+	"subtype": ["GENERIC"],
     "id": "chunk_gold",
     "category": "spare_parts",
     "price": "15 USD",
@@ -45,7 +48,8 @@
     "melee_damage": { "bash": 4 }
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+	"subtype": ["GENERIC"],
     "id": "chunk_aluminum",
     "category": "spare_parts",
     "price": "1 USD",
@@ -60,7 +64,8 @@
     "melee_damage": { "bash": 1 }
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+	"subtype": ["GENERIC"],
     "id": "chunk_cassiterite",
     "category": "spare_parts",
     "price": "3 USD",
@@ -75,7 +80,8 @@
     "melee_damage": { "bash": 2 }
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+	"subtype": ["GENERIC"],
     "id": "chunk_galena",
     "category": "spare_parts",
     "price": "250 cent",
@@ -90,7 +96,8 @@
     "melee_damage": { "bash": 3 }
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+	"subtype": ["GENERIC"],
     "id": "chunk_hematite",
     "category": "spare_parts",
     "price": "250 cent",
@@ -106,7 +113,8 @@
   },
   {
     "id": "pickaxe_copper",
-    "type": "TOOL",
+    "type": "ITEM",
+	"subtype": ["TOOL"],
     "name": { "str": "copper pickaxe" },
     "description": "This is a handmade copper pickaxe, suitable for breaking up hard things or (with enough skill) hard targets.  Strike the earth!",
     "sub": "pickaxe",
@@ -123,12 +131,13 @@
   },
   {
     "id": "pickaxe_bone",
-    "type": "TOOL",
+    "type": "ITEM",
+	"subtype": ["TOOL"],
     "name": { "str": "bone pickaxe" },
     "description": "This is a primitive pickaxe, traditionally made from antler or bone, and fire-hardened for greater hardness.  Less than ideal, but still suitable for striking the earth.",
     "sub": "pickaxe",
     "weight": "760 g",
-    "volume": 10,
+    "volume": "10 L",
     "price": "8 USD",
     "to_hit": -3,
     "melee_damage": { "bash": 10, "stab": 3 },
@@ -140,13 +149,15 @@
   },
   {
     "id": "boulder_anvil_leveled",
-    "type": "TOOL",
+    "type": "ITEM",
+	"subtype": ["TOOL"],
     "copy-from": "fake_item",
     "name": { "str": "leveled boulder anvil" },
     "qualities": [ [ "ANVIL", 3 ] ]
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+	"subtype": ["AMMO"],
     "id": "material_sand_black",
     "category": "spare_parts",
     "name": { "str_sp": "black sand" },
