@@ -4,8 +4,9 @@
     "ident": "Mining_Mod",
     "name": "Mining Mod",
     "authors": [ "DangerNoodle" ],
-    "description": "Adds ore veins deeper underground, and variant pickaxe recipes.  Near-surface veins are now part of vanilla BN.",
+    "description": "Adds variant pickaxe recipes.  Mineral veins are now part of vanilla BN, as such this mod is now obsolete.",
     "category": "misc_additions",
+    "obsolete": true,
     "dependencies": [ "bn" ]
   }
 ]
